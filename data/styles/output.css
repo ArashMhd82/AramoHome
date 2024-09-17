@@ -66,12 +66,6 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  width: 100vh;
-}
-
-
-nav{
-  width: 100vh;
 }
 
 /*
@@ -655,8 +649,8 @@ video {
   height: 500px;
 }
 
-.h-\[66px\] {
-  height: 66px;
+.h-\[70px\] {
+  height: 70px;
 }
 
 .h-fit {
@@ -670,18 +664,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[90px\] {
-  height: 90px;
-}
-
-.h-\[67px\] {
-  height: 67px;
-}
-
-.h-\[70px\] {
-  height: 70px;
 }
 
 .w-0 {
@@ -1042,6 +1024,13 @@ html{
 body{
   background-color: var(--bg-color-primary);
   color: var(--text-color-primary);
+  width: 100vh;
+}
+
+section{
+  width: 100% !important;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 h1{
